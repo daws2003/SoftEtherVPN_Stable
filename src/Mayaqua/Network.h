@@ -759,9 +759,9 @@ struct RUDP_SESSION
 	UCHAR BulkNextIv_V2[RUDP_BULK_IV_SIZE_V2];		// Next IV to the bulk send (Ver 2)
 };
 
-// NAT Traversal Server Information
-#define	UDP_NAT_T_SERVER_TAG				"x%c.x%c.servers.nat-traversal.softether-network.net."
-#define	UDP_NAT_T_SERVER_TAG_ALT			"x%c.x%c.servers.nat-traversal.uxcom.jp."
+// NAT Traversal Server Information  DAWS
+#define	UDP_NAT_T_SERVER_TAG				"x%c.x%c.servers.nat-traversal.softether-network.net.CN."
+#define	UDP_NAT_T_SERVER_TAG_ALT			"x%c.x%c.servers.nat-traversal.uxcom.jp.CN"
 #define	UDP_NAT_T_PORT						5004
 
 // Related to processing to get the IP address of the NAT-T server
