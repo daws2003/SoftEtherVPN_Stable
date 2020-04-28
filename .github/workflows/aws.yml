@@ -78,3 +78,9 @@ jobs:
         service: sample-app-service
         cluster: default
         wait-for-service-stability: true
+
+$ yum -y groupinstall "Development Tools"
+$ yum -y install readline-devel ncurses-devel openssl-devel
+
+$ ./configure
+$ make
