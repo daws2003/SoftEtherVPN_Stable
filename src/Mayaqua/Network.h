@@ -1,6 +1,6 @@
-// SoftEther VPN Source Code - Stable Edition Repository
+// SoftEther VPN Source Code - Stable Edition Repository 
 // Mayaqua Kernel
-// 
+// DAWS
 // SoftEther VPN Server, Client and Bridge are free software under the Apache License, Version 2.0.
 // 
 // Copyright (c) Daiyuu Nobori.
