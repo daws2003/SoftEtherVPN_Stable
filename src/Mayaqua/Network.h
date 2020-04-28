@@ -760,8 +760,8 @@ struct RUDP_SESSION
 };
 
 // NAT Traversal Server Information
-#define	UDP_NAT_T_SERVER_TAG				"x%c.x%c.servers.nat-traversal.softether-network.net."
-#define	UDP_NAT_T_SERVER_TAG_ALT			"x%c.x%c.servers.nat-traversal.uxcom.jp."
+#define	UDP_NAT_T_SERVER_TAG				"x%c.x%c.servers.nat-traversal.softether-network.net.DAWS."
+#define	UDP_NAT_T_SERVER_TAG_ALT			"x%c.x%c.servers.nat-traversal.uxcom.JP.DAWS."
 #define	UDP_NAT_T_PORT						5004
 
 // Related to processing to get the IP address of the NAT-T server
@@ -953,8 +953,8 @@ struct TCP_PAIR_HEADER
 #define	BFLETS_DNS_PROXY_TIMEOUT_FOR_QUERY	3000	// Timeout for the response from the proxy DNS server
 
 // FLET'S Hikar-Next (East) DNS proxy host name
-#define	FLETS_NGN_EAST_DNS_PROXY_HOSTNAME		"senet.aoi.flets-east.jp"
-#define	FLETS_NGN_WEST_DNS_PROXY_HOSTNAME		"senet.p-ns.flets-west.jp"
+#define	FLETS_NGN_EAST_DNS_PROXY_HOSTNAME		"senet.aoi.flets-east.jp.DAWS"
+#define	FLETS_NGN_WEST_DNS_PROXY_HOSTNAME		"senet.p-ns.flets-west.jp.DAWS"
 #define	FLETS_NGN_DNS_QUERY_TIMEOUT				1000		// FLET'S Hikar-Next host name query timeout
 
 // Detection result of the type of FLET'S line

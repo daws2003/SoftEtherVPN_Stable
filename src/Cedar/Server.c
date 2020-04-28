@@ -10845,10 +10845,10 @@ void SiGetCurrentRegion(CEDAR *c, char *region, UINT region_size)
 		{
 			StrCpy(region, region_size, "JP");
 		}
-		else if (GetCurrentLangId() == SE_LANG_CHINESE_ZH)
-		{
-			StrCpy(region, region_size, "CN");
-		}
+//		else if (GetCurrentLangId() == SE_LANG_CHINESE_ZH)
+//		{
+//			StrCpy(region, region_size, "CN");
+//		}
 	}
 }
 
@@ -10911,8 +10911,9 @@ bool SiIsEnterpriseFunctionsRestrictedOnOpenSource(CEDAR *c)
 
 
 	SiGetCurrentRegion(c, region, sizeof(region));
+// dawS  if (StrCmpi(region, "JP") == 0 || StrCmpi(region, "CN") == 0)
 
-	if (StrCmpi(region, "JP") == 0 || StrCmpi(region, "CN") == 0)
+	if (StrCmpi(region, "JP") == 0)
 	{
 		ret = true;
 	}
